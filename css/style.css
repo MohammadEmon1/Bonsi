@@ -1,0 +1,990 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+/* =============================== Header part Start =============================== */
+
+header .iteam {
+    margin-top: 20px;
+    position: relative;
+    padding-left: 50px;
+    border-right: 1px solid #EA3A60;
+}
+
+header .iteam i {
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 28.75px;
+    color: #EA3A60;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+
+header .iteam p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #555555;
+    padding-bottom: 10px;
+}
+
+header .iteam .number {
+    color: #000;
+}
+
+#noneborder {
+    border: none;
+}
+
+header .icon {
+    text-align: right;
+    font-size: 25px;
+    color: #EA3A60;
+    padding-top: 25px;
+}
+
+header .icon i {
+    margin-right: 17px;
+}
+
+/* =============================== Header part end=============================== */
+
+/* =================================Nav bar start============================== */
+nav {
+    background: #EA3A60;
+}
+
+nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+nav ul .dropdown-menu a {
+    color: rgb(78, 78, 78) !important;
+}
+
+/* =================================Nav bar End================================ */
+
+/* ==================================== Banner part start====================== */
+
+#banner-part {
+    background: url(../images/bg2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .overly {
+    background: rgba(61, 45, 45, .45);
+    height: 100%;
+    width: 100%;
+    padding: 100px 0;
+    padding-left: 70px;
+}
+
+
+#banner-part .overly .overlybox {
+    height: 500px;
+    width: 665px;
+    background: #EA3A60;
+
+}
+
+#banner-part .overly .overlybox .text {
+    text-align: center;
+    padding-top: 150px;
+}
+
+#banner-part .overly .overlybox .text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.9px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#banner-part .overly .overlybox .text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+#banner-part .overly .overlybox .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #fff;
+    padding-bottom: 15px;
+    padding-left: 140px;
+    padding-right: 60px;
+}
+
+#banner-part .overly .overlybox .text #whatwe {
+    color: #fff;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+
+#banner-part .overly .overlybox .text #whatwe:hover {
+    color: #EA3A60;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+/* ==================================== Banner part End====================== */
+
+/* ========================= Solution Part Start==================  */
+#Solution-part {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#Solution-part .iteam {
+    background: #EA3A60;
+    height: 600px;
+    text-align: center;
+}
+
+#Solution-part .iteam img {
+    width: 100%;
+}
+
+#Solution-part .iteam h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 117.19px;
+}
+
+#Solution-part .iteam h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+
+#Solution-part .text {
+    padding-left: 50px;
+}
+
+
+#Solution-part .text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 63px;
+}
+
+#Solution-part .text .line {
+    width: 128px;
+    height: 4px;
+    background: #EA3A60;
+}
+
+#Solution-part .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 19px;
+    padding-top: 60px;
+}
+
+#Solution-part .text #buttonnn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: #EA3A60;
+    border: 1px solid #EA3A60;
+    margin-top: 55px;
+}
+
+#Solution-part .text #buttonnn:hover {
+    background: #EA3A60;
+    color: #fff;
+}
+
+/* ========================= Solution Part End==================  */
+
+/* ===========================  Chose part start============== */
+
+#chose-part .text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #232323;
+    width: 365px;
+}
+
+#chose-part .text .line {
+    margin-top: 5px;
+    width: 128px;
+    height: 4px;
+    background: #EA3A60;
+}
+
+#chose-part .text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.92px;
+    color: #555555;
+    width: 512px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#chose-part .text .list i {
+    margin-top: 15px;
+    margin-left: 34px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 900;
+    color: #FFFFFF;
+    height: 55px;
+    width: 55px;
+    background: #EA3A60;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#chose-part .text .list {
+    margin-top: 35px;
+    position: relative;
+    padding-left: 120px;
+}
+
+#chose-part .text .list p {
+    padding-top: 10px;
+}
+
+#chose-part .logo img {
+    width: 613px;
+    height: 631px;
+    margin-left: 105px;
+}
+
+/* ===========================  Chose part End============== */
+
+/* =========================== Offer part start============ */
+#offer-part {
+    padding: 70px;
+    background: #F8F8F8;
+}
+
+#offer-part h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #232323;
+    width: 290px;
+}
+
+#offer-part p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.92px;
+    color: #555555;
+    width: 607px;
+    border-left: 4px solid #EA3A60;
+    padding-left: 25px;
+}
+
+#offer-part .iteam {
+    margin-top: 55px;
+    background: #fff;
+    height: 300px;
+    text-align: center;
+}
+
+#offer-part .iteam i {
+    padding: 30px 0;
+    font-size: 50px;
+    font-weight: 900;
+    color: #EA3A60;
+}
+
+#offer-part .iteam h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    color: #232323;
+    width: 230px;
+    margin: 0 auto;
+}
+
+#offer-part .iteam h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.92px;
+    color: #555555;
+    width: 309px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+
+/* =========================== Offer part End============ */
+
+/* <!-- ========================= Team member part start========== --> */
+#team-part .text {
+    text-align: center;
+}
+
+#team-part .text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #232323;
+    width: 519px;
+    margin: 0 auto;
+}
+
+#team-part .text .line {
+    height: 4px;
+    width: 129px;
+    background: #EA3A60;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+#team-part .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    width: 625px;
+    margin: 0 auto;
+}
+
+
+#team-part .iteam {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+}
+
+#team-part .iteam img {
+    width: 100%;
+    transform: scale(1) rotate(0);
+    transition: .4s;
+}
+
+#team-part .iteam .information {
+    text-align: center;
+    color: #000;
+    background: #EA3A60;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: .4s;
+}
+
+#team-part .iteam:hover .information {
+    opacity: 0;
+}
+
+#team-part .iteam .information h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #fff;
+    width: 256px;
+    margin: 0 auto;
+}
+
+#team-part .iteam .information p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    width: 98px;
+    margin: 0 auto;
+}
+
+#team-part .iteam:hover img {
+    transform: scale(1.3) rotate(15deg);
+}
+
+#team-part .iteam .overly {
+    height: 100%;
+    width: 100%;
+    background: rgba(234, 58, 96, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .4s;
+}
+
+#team-part .iteam .overly a {
+    font-size: 50px;
+    color: #fff;
+}
+
+#team-part .iteam:hover .overly {
+    opacity: 1;
+}
+
+/* <!-- ========================= Team member part End========== --> */
+
+/* ====================== Counter Part Start======================= */
+#counter-part {
+    margin: 100px 0;
+    height: 365px;
+    background: url(../images/bg\ \(2\)\ 1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+#counter-part .regtengular {
+    background: url(../images/Rectangle\ 17.jpg) no-repeat center;
+    background-size: cover;
+    height: 365px;
+    opacity: 60%;
+}
+
+#counter-part .row {
+    text-align: center;
+}
+
+#counter-part .row h1 {
+    margin-top: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#counter-part .row p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* ====================== Counter Part  End======================= */
+
+/* ================= Quation part start==============  */
+#Qstn-part {
+    margin: 100px 0;
+}
+
+
+#Qstn-part .qsietam h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    width: 390px;
+    color: #232323;
+}
+
+#Qstn-part .qsietam .line {
+    margin-top: 7px;
+    height: 4px;
+    width: 129px;
+    background: #EA3A60;
+}
+
+#Qstn-part .qsietam p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    width: 529.1px;
+    padding-top: 7px;
+
+}
+
+#Qstn-part .qsietam .dropdown {
+    margin-top: 25px;
+    padding: 25px 25px;
+}
+
+#Qstn-part .qsietam .dropdown .ppp {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width: 356.77px;
+    color: #FFFFFF;
+}
+
+#Qstn-part #dropdownMenuButton1 {
+    background: #EA3A60;
+
+}
+
+#Qstn-part .qsietam .olo {
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    width: 482px;
+}
+
+#Qstn-part .img {
+    padding-left: 150px;
+}
+
+/* ================= Quation part End==============  */
+
+/* ======================================== Faq part Start =========================== */
+
+#faq-part .text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #232323;
+    width: 390px;
+}
+
+#faq-part .text .line {
+    margin-top: 5px;
+    width: 128px;
+    height: 4px;
+    background: #EA3A60;
+}
+
+#faq-part .text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.92px;
+    color: #555555;
+    width: 512px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#faq-part .accordion-button {
+    background: #EA3A60;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#faq-part .accordion-button i {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%) rotate(0);
+}
+
+
+#faq-part .collapsed {
+    background: rgb(234, 58, 96, .13);
+    background: #EA3A60;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+#faq-part .collapsed i {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+#faq-part .accordion-button::after {
+    display: none;
+}
+
+
+#faq-part .logo img {
+    width: 613px;
+    height: 631px;
+    margin-left: 105px;
+}
+
+/* ======================================== Faq part end=========================== */
+
+/* ===================== Plan part start ==================== */
+#plan-part {
+    margin-top: 100px;
+    padding: 50px;
+    background: #E5E5E5;
+}
+
+#plan-part .text {
+    text-align: center;
+}
+
+#plan-part .text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #232323;
+    width: 519px;
+    margin: 0 auto;
+}
+
+#plan-part .text .line {
+    height: 4px;
+    width: 129px;
+    background: #EA3A60;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+#plan-part .text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    width: 625px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+#plan-part .iteam {
+    margin-top: 70px;
+}
+
+#plan-part .iteam .topbox {
+    height: 100px;
+    width: 100%;
+    background: #EA3A60;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
+
+#plan-part .iteam .bottombox {
+    height: 433px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+#plan-part .iteam .bottombox .overly {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    width: 312px;
+    height: 380px;
+
+}
+
+
+#plan-part .iteam .bottombox .overly .buttonn {
+    margin-top: 51px;
+    margin-left: 89px;
+}
+
+#plan-part .iteam .bottombox .overly ul li {
+    padding-top: 7px;
+}
+
+#plan-part .iteam .bottombox .overly ul li i {
+    font-size: 20px;
+    color: #60BE34;
+    width: 20px;
+}
+
+#plan-part .iteam .bottombox .overly ul li span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 400;
+    padding-left: 7px;
+}
+
+#plan-part .iteam .bottombox .overly ul .cross i {
+    font-size: 20px;
+    color: #EA3A60;
+}
+
+#plan-part .iteam .bottombox .overly ul .cross span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 400;
+    padding-left: 7px;
+}
+
+/* ===================== Plan part End ====================== */
+
+
+/* ============================== Slide part start======================= */
+
+
+
+
+/* ============================== Slide part End========================= */
+
+
+
+
+
+/* ========================= Mission part start================== */
+#mission-part {
+    background: #EA3A60;
+    height: 500px;
+}
+
+#mission-part .img {
+    line-height: 500px;
+}
+
+#mission-part .row h1 {
+    padding-top: 47px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 625px;
+}
+
+#mission-part .row .line {
+    margin-top: 7px;
+    width: 110px;
+    height: 3px;
+    background: #fff;
+}
+
+#mission-part .row p {
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 591px;
+}
+
+#mission-part .row i {
+    margin-top: 47px;
+    font-size: 14px;
+    color: #EA3A60;
+    background: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    border: 5px solid #F6A8B9;
+}
+
+#mission-part .row span {
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    width: 156px;
+}
+
+/* ========================= Mission part End===================== */
+
+/* ================================ Latest News start ========================= */
+#News-part {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#News-part h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #000;
+    width: 272px;
+    margin: 0 auto;
+}
+
+#News-part .line {
+    height: 4px;
+    width: 129px;
+    background: #EA3A60;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+
+#News-part p {
+    padding-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555555;
+    width: 628px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#News-part .iteam {
+    margin-top: 21px;
+    text-align: left;
+    border-bottom: 11px solid #FCE6EA;
+
+}
+
+#News-part .iteam img {
+    width: 100%;
+}
+
+#News-part .iteam h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #232323;
+    width: 354px;
+    padding-right: 54px;
+    padding-left: 12px;
+    border-bottom: .4px solid #C4C4C4;
+    width: 100%;
+}
+
+#News-part .iteam .line {
+    height: 0.4px;
+    width: 100%;
+    background: #C4C4C4;
+}
+
+#News-part .iteam i {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    width: 13px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+#News-part .iteam span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+#News-part .fangleright {
+    margin-left: 190px;
+    margin-right: 2px;
+}
+
+#News-part .iteam p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    width: 337px;
+    margin-left: 12px;
+    margin-bottom: 19px;
+    margin-top: 12px;
+}
+
+/* ================================ Latest News End  ========================== */
+
+/* =================================== End part start=========================== */
+#End-part {
+    margin-top: 20px;
+    padding-top: 70px;
+    background: #E5E5E5;
+    padding-bottom: 30px;
+}
+
+#End-part .fast p {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+    width: 448px;
+}
+
+#End-part .fast h1 {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #232323;
+    width: 448px;
+}
+
+#End-part .fast h6 {
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #232323;
+    width: 168px;
+}
+
+#End-part .iteam {
+    margin-left: 25px;
+    padding-bottom: 70px;
+}
+
+#End-part .iteam h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #232323;
+    width: 161px;
+}
+
+#End-part .iteam p {
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555555;
+}
+
+#End-part #left {
+    padding-left: 25px;
+}
+
+#End-part #left1 {
+    padding-left: 45px;
+}
+
+#End-part .kisuna p{
+    text-align: center;
+}
+
+/* =================================== End part End============================= */
